@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<hmtl lang="en">
+    <title>document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="device-width=width,initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <head>
+        <style>
+            *
+             {
+                margin:0;
+                padding:0;
+                box-sizing:border-box;
+
+             }
+         .container
+          {
+            width:90%;
+            min-height:300px;
+             border:1px solid black;
+              margin:auto;
+              /*background-color:blue;*/
+              background:linear-gradient( 30deg,blue 20%,darkblue 80%);
+              border-bottom-left-radius: 50px;
+              border-bottom-right-radius: 50px;
+              margin-top:50px;
+              
+          }
+          .header
+          {
+            width:90%;
+             height:100px;
+            
+               display:flex;
+                margin:auto;
+          }
+          .header .logo
+          {
+            flex-basis:40%;
+          
+             display:flex;
+             align-items:center;
+         
+          }
+          .logo i
+          {
+            color:white;
+            font-size:2.8em;
+          }
+          .logo p
+          {
+            color:white;
+            font-size:2.5em;
+            margin-left:15px;
+          }
+          .header .menu
+          {
+            flex-basis:40%;
+          
+            display:flex;
+            align-items:center;
+          
+          }
+          .menu ul
+          {
+             list-style: none;
+          }
+          .menu ul li
+          {
+            padding-top:10px;
+            display:inline-block;
+           /* border:1px solid lightgray;*/
+            
+          }
+          .menu ul li a
+          {
+            color:white;
+            text-decoration: none;
+            font-size:1.4em;
+            padding:10px;
+
+         
+          }
+          .menu ul li a::after
+          {
+            content:"";
+            background-color:white;
+            width:0px;
+            height:4px;
+           display:block;
+           transition: all 0.5s;
+          }
+          .menu ul li a:hover::after
+          {
+            width:100%;
+          }
+          .header .btn
+          {
+            flex-basis:10%;
+         
+             align-items:center;
+             display:flex;
+             margin-left:50px;
+          }
+          .btn button
+          {
+           padding:10px 20px;
+           background-color: red;
+           color:white;
+            border:none;
+            border-radius: 10px;
+          }
+          .main-slider
+          {
+           
+            width:90%;
+            min-height:500px;
+            display:flex;
+           margin:auto;
+          
+
+          }
+          .main-slider .slider
+          {
+            flex-basis:50%;
+          
+           
+          }
+          .slider h1
+          {
+            color:white;
+            margin-top:20px;
+           
+            
+          }
+          h1 span{
+            color:orange;
+          }
+          .slider h4
+          {
+            color:white;
+            margin-top:100px;
+        
+           
+          }
+          .slider h5
+          {
+            color:white;
+            margin-top:20px;
+            text-align: justify;
+          }
+          .slider .t{
+           padding:10px 70px 10px 10px;
+           border-radius:15px;
+           border:none;
+           margin-top:40px;
+         
+          }
+          .slider button{
+            background-color:red;
+            padding:10px 20px 10px 10px;
+            border:none;
+            border-radius:15px;
+            color:white;
+          margin-left:-100px;
+          cursor:pointer;
+          }
+          button:hover
+          {
+            background-color:lightgreen;
+          color:black;
+          }
+           
+          
+          .main-slider .sub-slider
+          {
+           
+            flex-basis:40%;
+           
+            margin-left:50px;
+          }
+          .sub-slider .image{
+            width:65%;
+            height:350px;
+            background-color:yellow;
+            margin-top:18%;
+            margin-left:20%;
+
+          }
+          .image img
+          {
+            width:100%;
+            height:350px;
+          }
+          
+            </style>
+            </head>
+
+     <body>
+        <div class="container">
+            <div class="header">
+
+            
+            <div class="logo">
+                <i class="fa-solid fa-circle-xmark"></i>
+                <p>LUGX</p>
+            </div>
+            
+            <div class="menu">
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Our Shop</a></li>
+            <li><a href="">Product details</a></li>
+            <li><a href="">Contact Us</a></li>
+
+          
+        </ul>
+            </div>
+           <div class="btn">
+           <button>Sign in</button>
+           </div>
+        </div>
+        <div class="main-slider">
+          <div class="slider">
+           <h4>Welcome to lugx</h4>
+           <h1>BEST <span>GAMING</span> SITE EVER!</h1>
+           <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia ipsum libero iure commodi voluptatem ab consequatur dolores enim suscipitQuia ipsum libero iure commodi voluptatem ab consequatur dolores enim suscipit blanditiis?</h5>
+          <input type="text"class="t"value="Type Something..">
+          <button>Search Now</button>
+          </div>
+          <div class="sub-slider">
+          <div class="image">
+            <img src="D:\css program\images\spider.png">
+          </div>
+          </div>
+
+        </div>
+
+        </div>
+      </body>
+      </hmtl>
+
+
+
